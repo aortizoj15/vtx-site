@@ -87,15 +87,19 @@ p {
   padding: 2em 1em 1em;
   ul {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     list-style: none;
     margin: 0;
     padding: 0;
     li {
-      width: 31%;
+      width: 100%;
       margin-bottom: 1em;
       background: #fff;
       color: #333;
+      img {
+        height: 50%;
+      }
     }
   }
 }
@@ -120,9 +124,34 @@ p {
     &:first-child {
       background: #2690d4;
     }
+    .contact-container {
+      display: flex;
+      justify-content: space-around;
+      .mail-to {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
   }
 }
 
+// Section E
+#section-e {
+  .content-wrap {
+    padding: 1.5rem;
+    grid-column: 2/4;
+    .review {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+// Section F
+#section-f {
+  background: #fff;
+  color: #000;
+}
 // Footer
 
 #main-footer {
