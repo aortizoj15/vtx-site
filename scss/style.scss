@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 /* Core Styles */
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background: #333;
+  font-family: "Roboto", sans-serif;
+  background: #01110a;
   color: #fff;
   font-size: 1.1em;
   line-height: 1.5;
@@ -17,7 +17,9 @@ img {
   height: auto;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
   padding: 1em 0;
 }
@@ -29,16 +31,16 @@ p {
 
 .btn {
   display: inline-block;
-  background: #333;
+  background: #01110a;
   color: #fff;
   text-decoration: none;
   padding: 1em 2em;
-  border: 1px solid #777;
-  margin: .5em 0;
+  border: 1px solid #eee;
+  margin: 0.5em 0;
 
   &:hover {
-  background: #eaeaea;
-  color: #333;
+    background: #eaeaea;
+    color: #01110a;
   }
 }
 
@@ -51,7 +53,8 @@ p {
 
   .bg-image {
     position: absolute;
-    background: #333 url('https://images.pexels.com/photos/1301410/pexels-photo-1301410.jpeg');
+    background: #01110a
+      url("https://images.pexels.com/photos/1301410/pexels-photo-1301410.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,7 +77,7 @@ p {
 // Section A
 #section-a {
   background: #eaeaea;
-  color: #333;
+  color: #01110a;
   padding-bottom: 2em;
   .content-wrap {
     padding: 0 1.5em;
@@ -96,7 +99,7 @@ p {
       width: 100%;
       margin-bottom: 1em;
       background: #fff;
-      color: #333;
+      color: #01110a;
       img {
         height: 50%;
       }
@@ -104,14 +107,14 @@ p {
   }
 }
 .card-content {
-    padding: 1.5em;
+  padding: 1.5em;
 }
 
 // Section C
 
 #section-c {
   background: #fff;
-  color: #333;
+  color: #01110a;
   padding: 2em;
 }
 
@@ -122,7 +125,8 @@ p {
     padding: 2em;
     color: #fff;
     &:first-child {
-      background: #2690d4;
+      background: #ba2d0b;
+      color: #fff;
     }
     .contact-container {
       display: flex;
@@ -130,6 +134,7 @@ p {
       .mail-to {
         text-decoration: none;
         color: #fff;
+
       }
     }
   }
@@ -150,21 +155,19 @@ p {
 // Section F
 #section-f {
   background: #fff;
-  color: #000;
+  color: #01110a;
 }
 // Footer
 
 #main-footer {
   padding: 2em;
-  background: #000;
+  background: #01110a;
   color: #fff;
   text-align: center;
   a {
-    color: #2690d4;
+    color: #ba2d0b;
     text-decoration: none;
   }
 }
 
-
-
-@import 'media-query';
+@import "media-query";
