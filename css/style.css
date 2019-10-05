@@ -42,7 +42,7 @@ p {
   text-align: center; }
   #showcase .bg-image {
     position: absolute;
-    background: #01110a url("https://images.pexels.com/photos/1301410/pexels-photo-1301410.jpeg");
+    background: #01110a url("/dist/img/tire-stack-min.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
